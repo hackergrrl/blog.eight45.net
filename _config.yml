@@ -12,4 +12,6 @@ github_username:  noffle
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
