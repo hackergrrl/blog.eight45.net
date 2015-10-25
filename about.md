@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your
-Jekyll theme, as well as basic Jekyll usage documentation at
-[jekyllrb.com](http://jekyllrb.com/)
+<img style="float: right; margin-left: 10px;" src="/static/me7_normal.jpg"/>
 
-You can find the source code for the Jekyll new theme at:
-[github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Hi, I'm Noffle.
 
-You can find the source code for Jekyll at
-[github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I write [open source](https://github.com/noffle), design [video games](http://www.stephenwhitmore.com), and take [photographs](https://500px.com/stephenwhitmore).
 
+I'm on [Twitter](https://twitter.com/noffle)!
+
+I am currently working on a game about sneaking aboard randomly generated spaceships called [Boarding Action](https://twitter.com/boarding_action).

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quick and Easy READMEs with vmd!"
+title:  "Quick and Easy READMEs with vmd"
 date:   2015-10-24 08:37:25
 categories: nodejs unix
 ---
