@@ -74,13 +74,13 @@ Twitter's public HTTP routes (e.g.
 This took the form of [latest-tweets](https://github.com/noffle/latest-tweets),
 a module with a delightfully simple API:
 
-```js
+{% highlight javascript %}
 var latestTweets = require('latest-tweets')
 
 latestTweets('noffle', function (err, tweets) {
   console.log(tweets)
 })
-```
+{% endhighlight %}
 
 This will print a JSON blob of my latest tweets to standard out.
 
