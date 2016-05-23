@@ -2,7 +2,6 @@
 layout: post
 title:  "Fork Github Repositories Easily"
 date:   2016-03-10 23:40:47
-categories: productivity open-source git
 ---
 # The dream
 
@@ -23,7 +22,7 @@ After installing and examining the documentation, you may notice that `hub` alre
 # Wrapping `hub fork` up pretty
 
 Let's write a bash function to do the heavy lifting around the `hub fork` command to parse an argument of the form `username/repo`, clone it into where ever you prefer your forked repos to be, perform the fork, and finally set your shell's current directory there:
-`
+
 ```sh
 #!/bin/bash
 
@@ -73,7 +72,9 @@ From https://github.com/noffle/electron-speech
  * [new branch]      master     -> noffle/master
 new remote: noffle
 
-stephen // electron-speech $ 
+stephen // electron-speech $ git remote
+origin
+noffle
 ```
 
 Woohoo! Now we can create a new branch, make our edits, commit, and push to our remote. We can then use `hub pull-request` to submit our changes to the original repo.
