@@ -1,84 +1,81 @@
 ---
 layout: post
 title:  "Art of README"
-date:   2016-09-08 10:03:00
+date:   2016-10-01 11:21:00
 categories:
 ---
 
-
-
-TODO: Examples!!!
-
-
-
-## The README
+## Etymology
 
 Where does the term "README" come from?
 
 The nomenclature dates back to *at least* the 1970s [and the
 PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-though it may even reach back to the days of informative "README!" notes placed
-atop stacks of punchcards, describing their usage.
+though it may even harken back to the days of informative paper notes placed atop
+stacks of punchcards, "READ ME!" scrawled upon them, describing their use.
 
 The pattern of README appearing in all-caps is a consistent facet throughout
 history. In addition to the visual strikingness of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
-before the rest of the directory's content[1](1).
+before the rest of the directory's content [1](1).
 
 The intent is clear: *"this is important information for the user to read before
-proceeding"*.
+proceeding"*. Let's explore together what constitutes "important information" in
+this modern age.
 
-## Art of README
 
-This is an article about READMEs. About what they do, about why they are an
-absolute necessity, and how to craft them well.
+## For creators, for consumers
+
+This is an article about READMEs. About what they do, why they are an absolute
+necessity, and how to craft them well.
 
 This is written for module creators, for as a builder of modules, your job is to
 create something that will last. This is an inherent motivation, even if the
-author has no intent of sharing their work. Once 6 months or longer passes, a
-module without documentation tends to look a lot like a stranger's work.
+author has no intent of sharing their work. Once 6 months pass, a module without
+documentation begins to look new and unfamiliar.
 
 This is also written for module consumers, for every module author is also a
 module consumer. Node has a very healthy degree of interdependency: no one lives
 at the bottom of the dependency tree.
 
 Despite being focused on Node, the author contends that its lessons apply
-relatively cleanly to other programming ecosystems as well.
+well to other programming ecosystems as well.
 
 
-## A massive pile of *things*: some good, some bad
+## Many modules: some good, some bad
 
-The node ecosystem is powered by its modules.
+The Node ecosystem is powered by its modules.
 
-If node was a train, it's [npm](https://npmjs.org) that arranges them into a
+If Node was a train, it's [npm](https://npmjs.org) that arranges them into a
 string of boxcars, puts a locomotive behind it, and keeps it running on
-schedule. In the course of a week, node developers evaluate potentially dozens
-of modules for inclusion in their projects. This is a great deal of power being
-churned out in a daily basis, ripe for the plucking as fast as one can write
-`npm install`.
+schedule. In the course of a week, Node developers evaluate dozens of modules
+for inclusion in their projects. This is a great deal of power being churned out
+in a daily basis, ripe for the plucking, just as fast as one can write `npm
+install`.
 
 Like any ecosystem that is extremely accessible, the quality bar varies. npm
-packs away all of these modules and ship them to every port, but the number of
-tools stuffed into each boxcar is wide and varied: some are shining and new,
-others broken and rusty, and still others are somewhere in between. There are
-even some that we don't know what they do!
+does its best to nicely pack away all of these modules and ship them far and
+wide. However, the tools stuffed into each boxcar are widely varied: some are
+shining and new, others broken and rusty, and still others are somewhere in
+between. There are even some that we don't know what they do!
 
 For modules, this can take the form of inaccurate or unhelpful names (any
 guesses what the `fudge` module does?), no documentation, no tests, no source
-code comments, or even comprehensible function names.
+code comments, or incomprehensible function names.
 
-Many don't even have a maintainer. And without a human readily on hand to answer
-questions and explain what a module does, and no remnants of documentation left
-behind, a module becomes a bizarre alien artifact, unusable and incomprehensible
-by the archaeologist-hackers of tomorrow.
+Many don't have an active maintainer. If a mdoule has no human available to
+answer questions and explain what a module does, combined with no remnants of
+documentation left behind, a module becomes a bizarre alien artifact, unusable
+and incomprehensible by the archaeologist-hackers of tomorrow.
 
-For those modules that do have documentation, the quality bar once again varies.
-Maybe it's just a one-liner description. Maybe it's some example code. All of
-these things are improvements, but ultimately result in the worst-case scenario
-for a modern day module spelunkyer: the need to dig into the source code and try
-to understand how the module actually works. Writing excellent documentation is
-all about keeping the users out of the source code and providing instructions
-sufficient to enjoy the abstractions that your module brings.
+For those modules that do have documentation, where do they fall on the quality
+spectrum? Maybe it's just a one-liner description: `"sorts numbers by their hex
+value"`. Maybe it's a snippet of example code. These are both improvements upon
+nothing, but they tend to result in the worst-case scenario for a modern day
+module spelunkyer: digging into the source code to try and understand how it
+actually works. Writing excellent documentation is all about keeping the users
+*out* of the source code by providing instructions sufficient to enjoy the
+wonderful abstractions that your module brings.
 
 Node has a "wide" ecosystem: it's largely made up of a very long list of
 independent do-one-thing-well modules under no flag but their own. There are
@@ -92,7 +89,7 @@ what you want.
 infinitely better than a culture problem, where only the privileged few may
 participate.
 
-Let's see how this discoverability problem can be addressed.
+Plus, discoverability -- as it turns out -- is easier to address.
 
 
 ## All roads lead to README.txt
@@ -100,58 +97,81 @@ Let's see how this discoverability problem can be addressed.
 The Node community has responded to the challenge of discoverability in
 different ways.
 
-[Curated lists](https://github.com/sindresorhus/awesome-nodejs) exist, by using
-the wisdom of experienced node developers to highlight quality modules amongst
-different categories. This also takes the form of RSS feeds and mailing lists of
-new modules deigned useful by trusted community members.
+Some experienced Node developers band together to create [curated
+lists](https://github.com/sindresorhus/awesome-nodejs) of quality modules.
+Developers leverge their many years examining hundreds of different modules to
+share with newcomers the *Crème de la Crème*: the best modules in each category.
+This might also take the form of RSS feeds and mailing lists of new modules deigned
+useful by trusted community members.
 
 How about the social graph? This idea spurred the creation of
 [node-modules.com](http://node-modules.com/), a npm search replacement that
 leverages your Github social graph to find modules your friends like or have
 made.
 
-Of course there is also [npm search](https://npmjs.org): a safe default, and the
-usual port of entry for new developers.
+Of course there is also npm's built-in [search](https://npmjs.org)
+functionality: a safe default, and the usual port of entry for new developers.
 
-No matter your approach, the module spelunkyer will ultimately find themselves
-on [npmjs.org](https://npmjs.org) or [github.com](https://github.com) or
-somewhere else, **staring at a README**. Since your users will inevitably end up
-here, what can be done to make this destination maximally effective?
+No matter your approach, regardless of whether the module spelunkyer ultimately
+finds themselves on [npmjs.org](https://npmjs.org) or
+[github.com](https://github.com) or somewhere else, they'll be staring your
+README square in the face. Since your users will inevitably end up here, what
+can be done to make this brief impression maximally effective?
 
 
 ## Professional module spelunkying
 
-
 ### The README: Your one-stop shop
 
-A README is a module consumer's first (and maybe only) look into your creation.
-The consumer wants a module to fulfill their need, so you need to explain
+A README is a module consumer's first -- and maybe only -- look into your
+creation. The consumer wants a module to fulfill their need, so you must explain
 exactly what need your module fills, and how effectively it does so.
 
 Your job is to
 
-1. tell them what it is (with or without context)
-2. tell them what it looks like in action
-3. tell them how they use it
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
 4. tell them any other relevant details
 
-This is *your* job, again, because of the width of the ecosystem and its
-resultant varying quality bar. Your README is your external, public-facing
-measure of where your work lies on that spectrum of quality.
+This is *your* job. It's up to the module creator to prove that their work is a
+shining gem in the sea of slipshod modules. Since so many developers' eyes will
+find their way to your README before anything else, quality here is your
+public-facing measure of your work.
 
 
-### No README? No abstraction.
+### Brevity
 
-The strongest signal when looking at a module is the presence or absence of a
-README.
-
-The lack of any README is a powerful red flag, but even a lengthy README is not
+The lack of a README is a powerful red flag, but even a lengthy README is not
 indicative of there being high quality. The ideal README is as short as it can
 be without being any shorter. Detailed documentation is good -- make separate
 pages for it! -- but keep your README succinct.
 
-No README means you need to delve into the code to understand it. The monks of
-the Perl community have wisdom to share:
+
+### Learn from the past
+
+It is said that those who do not study their history are doomed to make its
+mistakes again. Developers have been writing documentation for quite some number
+of years. It would be wasteful to not look back a little bit and see what people
+did right before Node.
+
+Perl, for all of the flak it recieves, is in some ways the spiritual grandparent
+of Node. Both are high-level scripting languages, adopt many UNIX idioms, fuel
+much of the internet, and both feature a wide module ecosystem.
+
+It so turns out that the [monks](http://perlmonks.org) of the Perl community
+indeed have a great deal of experience in writing [quality
+READMEs](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm). CPAN is a
+wonderful resource that is worth reading through to learn more about a community
+that wrote consistently high-calibur documentation.
+
+
+### No README? No abstraction
+
+No README means developers will need to delve into your code in order to
+understand it.
+
+The Perl monks have wisdom to share on the matter:
 
 > Your documentation is complete when someone can use your module without ever
 > having to look at its code. This is very important. This makes it possible for
@@ -165,25 +185,28 @@ the Perl community have wisdom to share:
 
 ### Key elements
 
-Once a README is located the brave module spelunkyer must scan it to discern if
+Once a README is located, the brave module spelunkyer must scan it to discern if
 it matches the developer's needs. This becomes essentially a series of pattern
 matching problems for their brain to solve, where each step takes them deeper
-into the module and its details:
+into the module and its details.
 
-1. *Name* -- ideally the module name is self-evident.
-   [`sorted-array`](https://github.com/javascript/sorted-array) sounds promising
-   if one is looking for an array that maintains a sort order on itself. If the
-   name sounds too vague or unrelated, one can move on.
+Let's say, for example, my search for a 2D collision detection module leads me
+to [`collide-2d-aabb-aabb`](https://github.com/noffle/collide-2d-aabb-aabb). I
+begin to examine it from top to bottom:
+
+1. *Name* -- self-explanatory names are best. `collide-2d-aabb-aabb` sounds
+   promising, though it assumes I know what an "aabb" is. If the name sounds too
+   vague or unrelated, it may be a signal to move on.
 
 2. *One liner* -- having a one-liner that describes the module is useful for
    getting an idea of what the module does in slightly greater detail.
-   `sorted-array` says
+   `collide-2d-aabb-aabb` says it
 
-> An implementation of John von Neumann's sorted arrays in JavaScript.
-> Implements insertion sort and binary search for fast insertion and deletion.
+> Determines whether a moving axis-aligned bounding box (AABB) collides with
+> other AABBs.
 
-The second sentence makes it very clear that it does what I
-want. Excellent! Now I need to gauge how well it'd fit into my code.
+Awesome: it defines what an AABB is, and what the module does. Now to gauge how
+well it'd fit into my code:
 
 3. *Usage* -- rather than starting to delve into the API docs, it'd be great to
    see what the module looks like in action. I can quickly determine whether the
@@ -193,18 +216,18 @@ want. Excellent! Now I need to gauge how well it'd fit into my code.
    detail.
 
 4. *API* -- the name, description, and usage of this module all sound appealing
-   to me. I'm probably very likely to use this module at this point. I just need
-   to scan the actual API to make sure it does exactly what I need and doesn't
-   have any unexpected caveats. The API section ought to detail the module's
-   objects and functions, their signatures, return types, callbacks, and events
-   in good detail. Types should be included where they aren't obvious. Caveats
-   should be made clear.
+   to me. I'm very likely to use this module at this point. I just need to scan
+   the API to make sure it does exactly what I need and that it will integrate
+   easily into my codebase. The API section ought to detail the module's objects
+   and functions, their signatures, return types, callbacks, and events in good
+   detail. Types should be included where they aren't obvious. Caveats should be
+   made clear.
 
 5. *Installation* -- if I've read this far down then I'm sold on trying out the
    module. If there are nonstandard installation notes, here's where they'd go,
    but even if it's just a regular `npm install` I'd like to have that listed
    too. New users start using Node all the time, so having a link to npmjs.org
-   and an install command helps that user with resources to figure out how node
+   and an install command helps that user with resources to figure out how Node
    modules work.
 
 6. *License* -- most modules put this at the very bottom, but this might
@@ -276,7 +299,7 @@ to describe its promise as succinctly as you can, so module spelunkyers can
 either use your work when it's a fit, or move on to something else that does.
 
 
-## Bonus: what other good practices are there?
+## Bonus: other good practices
 
 Outside of the key points of the article, there are other practices you can
 follow (or not follow) to raise your README's quality bar even further, and
@@ -346,7 +369,7 @@ maximize its usefulness to others.
       found [here](api_formatting.md)
 
 9. If your module is a small collection of stateless functions, having a
-   **Usage** section as a [node REPL
+   **Usage** section as a [Node REPL
    session](https://github.com/noffle/bisecting-between#example) of function
    calls and results might communicate usage more clearly than a source code
    file to run.
@@ -377,7 +400,7 @@ maximize its usefulness to others.
     that is essential to future users grokking your work.
 
 
-## Bonus: `common-readme`
+## Bonus: *common-readme*
 
 Not coincidentally, this is also the format used by
 [**common-readme**](https://github.com/noffle/common-readme), a set of README
@@ -390,6 +413,13 @@ real module examples with this format, too.
 
 Go forth, brave module spelunker, and make your work discoverable and useable
 through excellent documentation!
+
+
+## The author
+
+I'm [noffle](http://blog.eight45.net/about/). I'm known to
+[blog](blog.eight45.net), [tweet](https://twitter.com/noffle), and
+[hack](https://github.com/noffle).
 
 
 ## Footnotes
