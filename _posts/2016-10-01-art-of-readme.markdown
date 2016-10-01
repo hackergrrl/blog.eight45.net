@@ -313,33 +313,23 @@ maximize its usefulness to others.
    understand to use and grok it. This is also a great place to explain the
    module's motivation if similar modules already exist on npm.
 
-2. This leads into my favourite lesson: aggressively linkify! If you talk about
-   other modules, ideas, or people, you might as well make that reference text a
-   link so that visitors can more easily grok your module and the ideas it
-   builds upon. Few modules exist in a vacuum: all work comes from other work,
-   so it pays to help users follow your module's history and inspiration
-   backwards through time.
+2. Aggressively linkify! If you talk about other modules, ideas, or people, make
+   that reference text a link so that visitors can more easily grok your module
+   and the ideas it builds upon. Few modules exist in a vacuum: all work comes
+   from other work, so it pays to help users follow your module's history and
+   inspiration.
 
-3. That said, also consider providing links in *Background* to authors who
-   inspired you or that you got ideas from (or to research papers, websites,
-   etc) -- aggressively linkify to help readers follow your great ideas
-   backwards through time!
-
-4. Include information on types of arguments and return parameters if it's not
+3. Include information on types of arguments and return parameters if it's not
    obvious. Prefer convention where ever possible (`cb` probably means callback
    function, `num` probably means a `Number`).
 
-5. Include the JS in **Usage** as a file in your repo called `example.js` --
-   it's great to have README code that users can actually run if they clone the
-   repository.
+4. Include the example code in **Usage** as a file in your repo -- maybe as
+   `example.js`. It's great to have README code that users can actually run if
+   they clone the repository.
 
-6. Don't be shy about having additional sections in the README to explain
-   concepts in the module that are complicated or have unexpected edge
-   behaviour.
-
-7. Be extremely judicious in your use of badges. They're easy to
-   [overuse](https://github.com/angular/angular). They can also be a bikeshed;
-   avoid falling into pointless debate on them. They add visual noise to your
+5. Be judicious in your use of badges. They're easy to
+   [abuse](https://github.com/angular/angular). They can also be a breeding
+   ground for bikeshedding and endless debate. They add visual noise to your
    README, and generally only function if the user reading your markdown in a
    browser online, since the images are generally hosted elsewhere on the
    internet. For each badge, consider: "what real value is this badge providing
@@ -347,11 +337,9 @@ maximize its usefulness to others.
    status? this signal would better reach important parties by emailing
    maintainers or automatically creating an issue -- always consider the
    audience of the data in your README and ask yourself if there's a flow for
-   that data that can better reach its intended audience. (If you absolutely
-   must have a badge, make sure it's wrapped in a link that points to further
-   contextual information.)
+   that data that can better reach its intended audience.
 
-8. API formatting is highly bikesheddable. Use whatever format you think is most
+6. API formatting is highly bikesheddable. Use whatever format you think is most
    clear, but make sure your format expresses important subtleties:
 
    a. which parameters are optional, and their defaults
@@ -368,22 +356,22 @@ maximize its usefulness to others.
       becomes cheap. Some of my personal preferences on api formatting can be
       found [here](api_formatting.md)
 
-9. If your module is a small collection of stateless functions, having a
+7. If your module is a small collection of stateless functions, having a
    **Usage** section as a [Node REPL
    session](https://github.com/noffle/bisecting-between#example) of function
    calls and results might communicate usage more clearly than a source code
    file to run.
 
-10. If your module provides a CLI (command line interface) instead of (or in
+8. If your module provides a CLI (command line interface) instead of (or in
     addition to) a programmatic API, show usage examples as command invocations
     and their output. if you create or modify a file, `cat` it to demonstrate
     the change before and after.
 
-11. Don't forget to use `package.json`
+9. Don't forget to use `package.json`
     [keywords](https://docs.npmjs.com/files/package.json#keywords) to direct
     module spelunkers to your doorstep.
 
-12. The more you change your API, the more work you need to exert updating
+10. The more you change your API, the more work you need to exert updating
     documentation -- the implication here is that you should keep your APIs
     small and concretely defined early on. Requirements change over time, but
     instead of front-loading assumptions into the APIs of your modules, load
@@ -394,7 +382,7 @@ maximize its usefulness to others.
     correction cost you nothing but a simple substitution of one module for
     another.
 
-13. Finally, please remember that your version control repository and its
+11. Finally, please remember that your version control repository and its
     embedded README will outlive your [repository host](https://github.com) and
     any of the things you hyperlink to--especially images--so *inline* anything
     that is essential to future users grokking your work.
@@ -420,6 +408,13 @@ through excellent documentation!
 I'm [noffle](http://blog.eight45.net/about/). I'm known to
 [blog](blog.eight45.net), [tweet](https://twitter.com/noffle), and
 [hack](https://github.com/noffle).
+
+This little project began back in May in Berlin at squatconf, where I was
+digging into how Perl monks wrote their documentation, and also lamented the
+state of my READMEs in the Node ecosystem. It spurred me to create
+[common-readme](https://github.com/noffle/common-readme). The "README Tips"
+section overflowed with tips though, which I decided could be usefully collected
+into an article about writing READMEs. Thus, Art of README was born!
 
 
 ## Footnotes
