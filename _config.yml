@@ -1,6 +1,6 @@
 # Site settings
 title: hacking with noffle
-email: stephen.whitmore@gmail.com
+email: noffle@eight45.net
 description: > # this means to ignore newlines until "baseurl:"
   Hack the world!
 baseurl: "" # the subpath of your site, e.g. /blog/
