@@ -10,5 +10,6 @@ var options = {
 
 sitedown(options, function (err) {
   if (err) return console.error(err)
+  require('child_process').spawn('cp', ['-r', 'static', options.build])
   console.log('success')
 })
