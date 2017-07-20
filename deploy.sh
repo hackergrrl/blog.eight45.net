@@ -1,4 +1,4 @@
 #!/bin/bash
 
-jekyll build
-rsync --progress --recursive _site/* sww@eight45.net:/var/www/blog/
+node index.js
+rsync --progress --recursive build/* sww@eight45.net:/var/www/blog/
