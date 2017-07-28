@@ -1,9 +1,6 @@
----
-layout: post
-title:  "Eight Years"
-date:   2017-01-11 10:49:52
-categories: 
----
+# Eight Years
+> 2017-01-11 10:49:52
+
 Spurred by [ev's blog post](http://evbogue.com/eightyears/), I felt compelled to
 share a bit about where I was eight years ago, where I am today, and where I see
 myself in another eight years.
@@ -11,7 +8,7 @@ myself in another eight years.
 This was a fun exercise to help me see both a) how far I've come!, and b) focus
 on my present-day trajectory toward the future.
 
-# Me: Eight years ago
+## Me: Eight years ago
 
 - 2009
 - still a university student
@@ -33,7 +30,7 @@ on my present-day trajectory toward the future.
 - never meditated before
 - terrified of cities
 
-# Me: Today
+## Me: Today
 
 - 2017
 - I write open source software for a living
@@ -47,7 +44,7 @@ on my present-day trajectory toward the future.
 - I have more ability to trust others than ever before
 
 
-# Me: Eight years in the future
+## Me: Eight years in the future
 
 - live off the grid (solar, wind, river powered hacks)
 - live somewhere that I don't need a work visa to not be deported
@@ -63,7 +60,7 @@ on my present-day trajectory toward the future.
   place
 
 
-# My goals for society in eight years
+## My goals for society in eight years
 
 - a rich ecosystem of quality, secure, user empowering peer-to-peer software
 - open source is the new software default

@@ -1,10 +1,7 @@
----
-layout: post
-title:  "Why I quit using emoticons"
-date:   2017-01-01 00:53:20
-categories:
----
-# A suit of armour
+# Why I quit emoticons
+> 2017-01-01 00:53:20
+
+## A suit of armour
 
 Sometimes what we dislike the most in others is the thing that we dislike the most in ourselves.
 
@@ -20,7 +17,7 @@ I needed armour. Emoticon armour. Something that would let me make everything I 
 
 But it was in fact dismantling the armour that I most sorely needed. Every time I used emoticons out of fear, I was feeding that fear, justifying it, and helping it stay strong.
 
-# Quitting emoticons
+## Quitting emoticons
 
 So I resolved to quit using emoticons for a week, to see what impact it would have on my online communications.
 
@@ -34,7 +31,7 @@ The results? It was as I suspected: no change. At least not externally. Nobody s
 
 The change was gradual. As I wrote, I did so mindfully. I'd notice when fear was present, and instead of shying away from it, I'd lean into it instead. I'd pause, stop writing for a moment, and let myself feel those fears of how others might react or feel. I felt the feeling without paying heed to any of the narratives around it. And it got easier and easier. Now I'm writing mostly without needing to even be aware of it.
 
-# The road forward
+## The road forward
 
 It took this experiment to help me realize that I was using emoticons to mitigate my own inner fears. Each time I wrote a message in a context I was unsure of myself in, my inner fears would manifest. The reactions I began to fear was the one I least wished for. Not, as I previously thought, the most likely to occur in reality.
 

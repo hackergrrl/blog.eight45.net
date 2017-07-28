@@ -1,9 +1,6 @@
----
-layout: post
-title:  "The Walking Dead: We're Breaking Up"
-date:   2017-01-09 09:58:44
-categories: 
----
+# The Walking Dead: We're Breaking Up
+> 2017-01-09 09:58:44
+
 I'd like to say, "it's not you, it's me", but I'd be lying. It *is* you. You
 were once kind, thought-provoking, and full of imagination. But you've changed.
 Now you're cold, sadistic, and delight in little but my suffering, and seeing
