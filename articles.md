@@ -1,5 +1,5 @@
 - [Eight Years](articles/2017-01-11-eight-years.html)
-- [The Walking Dead: We're Breaking Up](articles/2017-01-09-The-Walking-Dead:-We're-Breaking-Up.html)
+- [The Walking Dead: We're Breaking Up](articles/2017-01-09-the-walking-dead.html)
 - [Why I quit using emoticons](articles/2017-01-01-emoticons.md)
 - [A Brief Guide to vimb: the vim-like web browser](articles/2016-12-26-vimb.md)
 - [Overcoming the Resistance to Write](articles/2016-11-18-overcoming-the-resistance-to-write.html)
