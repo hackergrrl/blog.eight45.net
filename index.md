@@ -9,7 +9,7 @@ and living with intent. *[Read more about me](about.html)*.
 ## Latest Articles
 
 - [Eight Years](articles/2017-01-11-eight-years.html)
-- [The Walking Dead: We're Breaking Up](articles/2017-01-09-The-Walking-Dead:-We're-Breaking-Up.html)
+- [The Walking Dead: We're Breaking Up](articles/2017-01-09-the-walking-dead.html)
 - [Why I quit using emoticons](articles/2017-01-01-emoticons.md)
 - .. *[All articles](articles.html)*
 
