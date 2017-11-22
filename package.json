@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
+    "deploy": "./deploy.sh",
     "serve": "ecstatic"
   },
   "keywords": [],
