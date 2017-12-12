@@ -1,4 +1,4 @@
-# Journal: Identifying subservience
+# Identifying subservience in my life
 
 > Tue Dec 12 09:39:45 PST 2017
 
