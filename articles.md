@@ -1,4 +1,4 @@
-- [Journal: Identifyings subservience](2017-12-12-identifying-subservience.markdown)
+- [Journal: Identifying subservience](2017-12-12-identifying-subservience.markdown)
 - [Journal: Believing in myself](articles/2017-12-10.md)
 - [Excellent command line tools](articles/2017-11-29.html)
 - [On seeking approval from others; on today's practice](articles/2017-11-22.html)

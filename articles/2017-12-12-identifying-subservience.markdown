@@ -74,7 +74,7 @@ There's also a Buddha story about this:
 > contains. I breathe in the aroma of my tea and enjoy my mornings in this way.
 > But in my mind the teacup is already broken.’
 
-(There's something significant here between spirituality and cups, methinks.)
+*(There's something going on here with spirituality and cups)*
 
 The cup is already broken because it will eventually be so: either it will be
 lost, stolen, or mistakenly knocked off its shelf onto the ground. By making
