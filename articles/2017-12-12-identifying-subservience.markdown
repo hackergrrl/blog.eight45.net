@@ -86,3 +86,8 @@ ascetetic. But maybe it's about, on occasion, foregoing the things we're
 knowingly attached to, to not forget that life without those things is not only
 possible, but just as pleasant and full. Perhaps even more so.
 
+---
+
+EDIT: If this article spoke to you at all, I think you'll really enjoy this
+other article on the subject. They articulate some of the same ideas really
+well: http://mnmlist.com/requirements/
