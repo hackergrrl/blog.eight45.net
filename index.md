@@ -1,10 +1,14 @@
 ## Me in a nutshell
 
-I'm Stephen. I'm slowly exploring the world while writing open source software,
-studying my body & mind, and making deep meaningful connections with others. I
-appreciate simplicity, [technological
-holism](https://en.wikipedia.org/wiki/Ursula_Franklin#Holistic_and_prescriptive_technologies),
-and living with intent. *[Read more about me](about.html)*.
+Hello traveler! My name is noffle, or sometimes Stephen.
+
+I’m slowly exploring the world while writing open source software, studying my
+body & mind & the natural world, and learning to tend with care to my
+relationships with others. I appreciate living simply, with as few barriers put
+up between me and life as I can manage. *[Read more about me](about.html)*.
+
+This website is my attempt to document my life in a way that inspires, educates,
+and illuminates.
 
 ## Latest Articles
 
@@ -24,8 +28,7 @@ and living with intent. *[Read more about me](about.html)*.
 > individuals. Nobody pays or worries about servers and hosting, and the authors
 > control who has access.
 
-### [friendpm](https://github.com/noffle/friendpm)
-
-> Share, publish, and install Node.JS packages from your cache over the local
-> network.
+> Right now I'm building
+> [hyperpad-desktop](https://github.com/noffle/hyperpad-desktop), an
+> Electron-based Hyperpad program.
 
