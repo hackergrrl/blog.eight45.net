@@ -1,5 +1,6 @@
-- [Journal: Identifying subservience](articles/2017-12-12-identifying-subservience.markdown)
-- [Journal: Believing in myself](articles/2017-12-10.md)
+- [Know Thyself](articles/know_thyself.html)
+- [Journal: Identifying subservience](articles/2017-12-12-identifying-subservience.html)
+- [Journal: Believing in myself](articles/2017-12-10.html)
 - [Excellent command line tools](articles/2017-11-29.html)
 - [On seeking approval from others; on today's practice](articles/2017-11-22.html)
 - [Eight Years](articles/2017-01-11-eight-years.html)

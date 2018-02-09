@@ -12,12 +12,12 @@ and illuminates.
 
 ## Latest Articles
 
+- [Know Thyself](articles/know_thyself.html)
 - [Journal: Identifying subservience](articles/2017-12-12-identifying-subservience.markdown)
 - [Journal: Believing in myself](articles/2017-12-10.md)
 - [Excellent command line tools](articles/2017-11-29.html)
 - [On seeking approval from others; on today's practice](articles/2017-11-22.html)
 - [Eight Years](articles/2017-01-11-eight-years.html)
-- [The Walking Dead: We're Breaking Up](articles/2017-01-09-the-walking-dead.html)
 - .. *[All articles](articles.html)*
 
 ## Projects
