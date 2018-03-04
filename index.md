@@ -24,9 +24,9 @@ and illuminates.
 
 ### [hyperpad](https://github.com/noffle/hyperpad)
 
-> Hyperpad is a free, open source, distributed text editor for communities and
-> individuals. Nobody pays or worries about servers and hosting, and the authors
-> control who has access.
+> Hyperpad will be a free, open source, peer-to-peer text editor for communities
+> and individuals. Documents are hosted on the computers of the participants,
+> and the authors control who has read/write access.
 
 > Right now I'm building
 > [hyperpad-desktop](https://github.com/noffle/hyperpad-desktop), an
