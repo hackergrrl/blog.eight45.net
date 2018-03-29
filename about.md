@@ -5,13 +5,15 @@
 
 Hi, I'm *noffle*.
 
-In mid-2016, I decided that I had had enough of living my life suffering and
-asleep. Since then I've been on an inner journey, studying topics like buddhism,
-stoicism, taoism, modern psychology, and other sources. I seek fearlessness; to
-be in tune with my body and the earth, to share what I know, and to open myself
-to others and experiences enough for deep, meaningful connections.
+In mid-2016, I faced some very difficult life circumstances that pushed me to
+make the decision to stop living my life asleep, and to begin exploring the real
+world we live in. Since then I've been on an inner and outer journey, studying
+topics like buddhism, stoicism, taoism, modern psychology, and other sources. I
+seek fearlessness; to be in tune with my body and the earth; to share what I
+know; to open myself to others and experiences enough for deep, meaningful
+connections.
 
-I am presently aspiring toward..
+I aspire toward..
 - writing [open source programs](https://github.com/noffle) for people, not profit
 - becoming aware of my consumption and waste
 - growing more in tune with nature
