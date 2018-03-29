@@ -33,11 +33,5 @@ You can reach me best by [email](mailto:sww@eight45.net) or
 [Twitter](https:/twitter.com/noffle). I'm also on [distributed social
 media, called *SSB*](https://scuttlebutt.nz).
 
-I tried running an experiment where I accepted donations for my work, but
-something about it didn't feel right.
-
-I'm experimenting with accepting donations for my open source programs and
-writing. Send me [an email](mailto:sww@eight45.net) if you'd like to send me
-money. If you know what PGP is, here is my [public
-key](http://eight45.net/pgp.asc).
+If you know what PGP is, here is my [public key](http://eight45.net/pgp.asc).
 
