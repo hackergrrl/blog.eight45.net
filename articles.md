@@ -1,3 +1,4 @@
+- [Unlearning patterns](articles/patterns.html)
 - [Donations](articles/donations.html)
 - [Know Thyself](articles/know_thyself.html)
 - [Journal: Identifying subservience](articles/2017-12-12-identifying-subservience.html)

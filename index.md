@@ -10,12 +10,12 @@ and illuminates the both of us.
 
 ## Latest Articles
 
+- [Unlearning patterns](articles/patterns.html)
 - [Donations](articles/donations.html)
 - [Know Thyself](articles/know_thyself.html)
 - [Journal: Identifying subservience](articles/2017-12-12-identifying-subservience.markdown)
 - [Journal: Believing in myself](articles/2017-12-10.md)
 - [Excellent command line tools](articles/2017-11-29.html)
-- [On seeking approval from others](articles/2017-11-22.html)
 - .. *[All articles](articles.html)*
 
 ## Projects
