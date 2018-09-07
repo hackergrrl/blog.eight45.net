@@ -5,8 +5,13 @@ body & mind & the natural world, and learning to tend with care to my
 relationships with others. I appreciate living simply, with as few barriers put
 up between me and life as I can manage. *[Read more about me](about.html)*.
 
-This website is my attempt to document my life in a way that inspires, educates,
+This blog is my attempt to document my life in a way that inspires, educates,
 and illuminates the both of us.
+
+These words are shared freely. No ads; subscriptions; tracking, or anything that
+tries to extract from you. This website even tries to not be wasteful of
+resources -- this page is under 3 kilobytes. The entire website *in toto* is
+under 1 megabyte.
 
 ## Latest Articles
 
