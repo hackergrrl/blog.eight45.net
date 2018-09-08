@@ -25,6 +25,11 @@ under 1 megabyte.
 
 ## Projects
 
+### [CHAIN SWORD](chain-sword.html)
+
+> CHAIN SWORD is a 2-4 player single screen versus game, where you fling
+> yourself around with a sword that is also a grappling hook.
+
 ### [cabal](http://cabal.chat)
 
 > cabal is an experimental p2p community chat platform. No servers are needed to
